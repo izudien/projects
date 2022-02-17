@@ -15,6 +15,7 @@
 | 09  | [Incrementing Counter](https://github.com/izudien/projects/tree/main/50projects50days/incrementing-counter)     | [Live Demo](https://incrementing-counter-izx.netlify.app/)   |
 | 10  | [Theme Clock](https://github.com/izudien/projects/tree/main/50projects50days/theme-clock)                       | [Live Demo](https://theme-clock-izx.netlify.app/)            |
 | 11  | [Drink Water](https://github.com/izudien/projects/tree/main/50projects50days/drink-water)                       | [Live Demo](https://drink-water-izx.netlify.app/)            |
+| 12  | [Faq Collapse](https://github.com/izudien/projects/tree/main/50projects50days/faq-collapse)                     | [Live Demo](https://faq-collapse-izx.netlify.app/)           |
 
 # frontendmentor.io Challenges - HTML/CSS and JavaScript
 
