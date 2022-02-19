@@ -16,6 +16,7 @@
 | 10  | [Theme Clock](https://github.com/izudien/projects/tree/main/50projects50days/theme-clock)                       | [Live Demo](https://theme-clock-izx.netlify.app/)            |
 | 11  | [Drink Water](https://github.com/izudien/projects/tree/main/50projects50days/drink-water)                       | [Live Demo](https://drink-water-izx.netlify.app/)            |
 | 12  | [Faq Collapse](https://github.com/izudien/projects/tree/main/50projects50days/faq-collapse)                     | [Live Demo](https://faq-collapse-izx.netlify.app/)           |
+| 13  | [Auto Text Effect](https://github.com/izudien/projects/tree/main/50projects50days/auto-text-effect)             | [Live Demo](https://auto-text-effect-izx.netlify.app/)       |
 
 # frontendmentor.io Challenges - HTML/CSS and JavaScript
 
