@@ -21,9 +21,10 @@
 
 # frontendmentor.io Challenges - HTML/CSS and JavaScript
 
-|  #  | Project                                                                                                                                                   | Live Demo                                                |
-| :-: | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| 01  | [NFT preview card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/nft-preview-card-component-main/nft-preview-card-component-main)       | [Live Demo](https://nft-preview-card-izx.netlify.app/)   |
-| 02  | [Order summary card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/order-summary-component-main/order-summary-component-main)           | [Live Demo](https://order-summary-card-izx.netlify.app/) |
-| 03  | [Stats preview card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/stats-preview-card-component-main/stats-preview-card-component-main) | [Live Demo](https://order-summary-card-izx.netlify.app/) |
-| 04  | [Tip calculator app](https://github.com/izudien/projects/tree/main/Frontendmentor.io/tip-calculator-app-main/tip-calculator-app-main)                     | [Live Demo](https://tip-calculator-app-izx.netlify.app/) |
+|  #  | Project                                                                                                                                                   | Live Demo                                                   |
+| :-: | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| 01  | [NFT preview card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/nft-preview-card-component-main/nft-preview-card-component-main)       | [Live Demo](https://nft-preview-card-izx.netlify.app/)      |
+| 02  | [Order summary card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/order-summary-component-main/order-summary-component-main)           | [Live Demo](https://order-summary-card-izx.netlify.app/)    |
+| 03  | [Stats preview card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/stats-preview-card-component-main/stats-preview-card-component-main) | [Live Demo](https://stats-preview-card-izx.netlify.app/)    |
+| 04  | [Tip calculator app](https://github.com/izudien/projects/tree/main/Frontendmentor.io/tip-calculator-app-main/tip-calculator-app-main)                     | [Live Demo](https://tip-calculator-app-izx.netlify.app/)    |
+| 05  | [3-column preview card component](https://github.com/izudien/projects/tree/main/Frontendmentor.io/3-column-preview-card-component-main)                   | [Live Demo](https://3-column-preview-card-izx.netlify.app/) |
