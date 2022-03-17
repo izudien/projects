@@ -18,6 +18,7 @@
 | 12  | [Faq Collapse](https://github.com/izudien/projects/tree/main/50projects50days/faq-collapse)                     | [Live Demo](https://faq-collapse-izx.netlify.app/)           |
 | 13  | [Auto Text Effect](https://github.com/izudien/projects/tree/main/50projects50days/auto-text-effect)             | [Live Demo](https://auto-text-effect-izx.netlify.app/)       |
 | 14  | [Sticky Navigation](https://github.com/izudien/projects/tree/main/50projects50days/sticky-navigation)           | [Live Demo](https://sticky-nav-izx.netlify.app/)             |
+| 15  | [Password Generator](https://github.com/izudien/projects/tree/main/50projects50days/generate-password)          | [Live Demo](https://generate-password-izx.netlify.app/)      |
 
 # frontendmentor.io Challenges - HTML/CSS and JavaScript
 
