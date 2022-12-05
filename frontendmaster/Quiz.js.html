@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://anjana.dev/javascript-first-steps/2-jsquiz-starter.html -->
+<html lang="en-US">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Quiz.js</title>
+    <style>
+      body {
+        margin: 1rem auto;
+        padding: 3rem;
+        font-family: sans-serif;
+      }
+      header {
+        width: 50%;
+        margin: 1em auto;
+      }
+      main {
+        min-width: 25rem;
+        max-width: 50%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+      }
+      #statement {
+        border: 1px solid black;
+        border-radius: 0.5rem;
+        box-shadow: 5px 5px 5px gray;
+        padding: 1rem;
+        font-size: x-large;
+        text-align: center;
+        margin: 1rem 0px;
+        min-height: 2em;
+      }
+      #explanation {
+        padding: 1rem;
+        text-align: center;
+      }
+      #options {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      button {
+        padding: 0.5rem;
+        font-size: medium;
+        border-radius: 5px;
+      }
+      .correct {
+        background-color: lightgreen;
+      }
+      .incorrect {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz.js</h1>
+      <p>Do you know JS? Find out!</p>
+    </header>
+
+    <main>
+      <div id="statement"></div>
+
+      <div id="options">
+        <button name="true" value="true">true</button>
+        <button name="false" value="false">false</button>
+      </div>
+
+      <div id="explanation"></div>
+    </main>
+
+    <script type="text/javascript">
+      // TODO 1: Declare & assign variables pointing to the corresponding element(s)
+      // statement should be the "statement" div
+      const statement = document.getElementById("statement");
+      // optionButtons should be all the elements within the "options" div
+      const optionButtons = document.getElementById("options").children;
+      // explanation should be the "explanation" div
+      const explanation = document.getElementById("explanation");
+
+      // TODO 2: Declare & assign a variable called fact
+      // Its value should be an object with a statement, true/false answer, and explanation
+      const fact = {
+        statement: "1 + 1 === 2",
+        answer: "true",
+        explanation: "1 + 1 sama dengan 2",
+      };
+
+      // TODO 3: Set the text of the statement element to the fact's statement
+      statement.textContent = fact.statement;
+
+      // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
+      // disable(button) should set the button element's attribute "disabled" to the value ""
+      const disabledBtn = (btn) => btn.setAttribute("disabled", "");
+      // disabledBtn(optionButtons[0]);
+
+      // enable(button) should remove the attribute "disabled" from the button element
+      const enableBtn = (btn) => btn.removeAttribute("disabled");
+
+      // TODO 5: Declare an isCorrect function that compares a guess to the right answer
+      // isCorrect(guess) should return true if the guess matches the fact's answer
+      const isCorrect = (guess) => {
+        return guess === fact.answer;
+      };
+
+      // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
+      // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
+      for (let btn of optionButtons) {
+        btn.addEventListener("click", (event) => {
+          explanation.textContent = fact.explanation;
+
+          // TODO 7: Within the event handler function,
+          // Use a for loop to disable all the option buttons
+          // disabled all button after click
+          for (let otherBtn of optionButtons) {
+            disabledBtn(otherBtn);
+          }
+
+          // TODO 8: Within the event handler function,
+          // Get the guessed value from the clicked button
+          // Use a conditional to compare the guess to the fact's answer
+          // and add the "correct"/"incorrect" class as appropriate
+          if (isCorrect(btn.value)) {
+            btn.classList.add("correct");
+          } else {
+            btn.classList.add("incorrect");
+          }
+        });
+      }
+
+      // method 1
+      // function multiply(x, y) {
+      //   return x * y;
+      // }
+
+      // const product = multiply(2, 4);
+      // console.log(product);
+
+      // function yell(str) {
+      //   console.log(str.toUpperCase());
+      // }
+
+      // yell("Hello");
+
+      // function longerThan(arr1, arr2) {
+      //   return arr1.length > arr2.length;
+      // }
+
+      // console.log(longerThan([1, 2, 3], [1, 2, 3, 4]));
+
+      // const divide = (x, y) => x / y;
+      // console.log(divide(10, 5));
+
+      // const whisper = (str) => {
+      //   const lc = str.toLowerCase();
+      //   console.log(lc);
+      //   return lc;
+      // };
+
+      // whisper("SHHHH");
+
+      // const shorterThan = (arr1, arr2) => arr1.length > arr2.length;
+      // console.log(shorterThan([1, 2, 3, 4], [1, 2, 3]));
+
+      // const trueBtn = optionButtons[0];
+      // trueBtn.addEventListener("click", () => {
+      //   trueBtn.textContent = trueBtn.textContent.toUpperCase();
+      // });
+
+      // const title = document.querySelector("h1");
+      // title.addEventListener("mouseover", () => {
+      //   title.textContent = "hovering";
+      // });
+
+      // title.addEventListener("mouseout", () => {
+      //   title.textContent = "Quiz.js";
+      // });
+
+      // const checkName = (fname, lname) => {
+      //   if (fname.length > lname.length) {
+      //     console.log("firstname is longer");
+      //   } else {
+      //     console.log("lastname is longer");
+      //   }
+      // };
+      // checkName("abc", "zxcv");
+
+      // const isEmpty = (array) => {
+      //   // if (array.length > 0) {
+      //   //   console.log("array is not empty");
+      //   // } else {
+      //   //   console.log("array is empty");
+      //   // }
+
+      //   if (array.length === 0) {
+      //     return true;
+      //   } else {
+      //     return false;
+      //   }
+      // };
+
+      // console.log(isEmpty([]));
+      // console.log(isEmpty([1, 2, 3]));
+    </script>
+  </body>
+</html>
