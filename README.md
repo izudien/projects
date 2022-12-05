@@ -29,3 +29,9 @@
 | 03  | [Stats preview card](https://github.com/izudien/projects/tree/main/Frontendmentor.io/stats-preview-card-component-main/stats-preview-card-component-main) | [Live Demo](https://stats-preview-card-izx.netlify.app/)    |
 | 04  | [Tip calculator app](https://github.com/izudien/projects/tree/main/Frontendmentor.io/tip-calculator-app-main/tip-calculator-app-main)                     | [Live Demo](https://tip-calculator-app-izx.netlify.app/)    |
 | 05  | [3-column preview card component](https://github.com/izudien/projects/tree/main/Frontendmentor.io/3-column-preview-card-component-main)                   | [Live Demo](https://3-column-preview-card-izx.netlify.app/) |
+
+# Shopping Cart with JavaScript - freeCodeCamp
+
+|  #  | Project                                                                         | Live Demo                                          |
+| :-: | ------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 01  | [NFT preview card](hhttps://github.com/izudien/projects/tree/main/ShoppingCart) | [Live Demo](https://shopping-cart-izx.vercel.app/) |
