@@ -32,6 +32,6 @@
 
 # Shopping Cart with JavaScript - freeCodeCamp
 
-|  #  | Project                                                                         | Live Demo                                          |
-| :-: | ------------------------------------------------------------------------------- | -------------------------------------------------- |
-| 01  | [NFT preview card](hhttps://github.com/izudien/projects/tree/main/ShoppingCart) | [Live Demo](https://shopping-cart-izx.vercel.app/) |
+|  #  | Project                                                                                      | Live Demo                                          |
+| :-: | -------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 01  | [Shopping Cart with JavaScript](hhttps://github.com/izudien/projects/tree/main/ShoppingCart) | [Live Demo](https://shopping-cart-izx.vercel.app/) |
